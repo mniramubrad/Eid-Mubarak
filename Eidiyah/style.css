@@ -1,0 +1,25 @@
+
+body {
+    background-color: #ffeef5;
+    font-family: 'Tahoma', sans-serif;
+    text-align: center;
+    padding: 40px;
+    direction: rtl;
+}
+button {
+    background-color: pink;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 12px;
+    cursor: pointer;
+}
+input {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+img {
+    margin-top: 20px;
+    width: 200px;
+}

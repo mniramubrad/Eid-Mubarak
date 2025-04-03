@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>افتح عيديتك</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="name-form" onsubmit="handleSubmit(event)">
+        <input type="text" id="name" name="name" placeholder="اكتب اسمك" required>
+        <button type="submit">افتح عيديتك</button>
+    </form>
+
+    <div id="gift" style="display:none;">
+        <h1 id="greeting"></h1>
+        <p>من: المبرمجة والمهندسة والأخصائية ميمي</p>
+        <img id="money" src="500.jpg" alt="عيدية">
+        <audio id="pop-sound" src="pop.mp3"></audio>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
